@@ -1,0 +1,76 @@
+#body{ margin: 0; padding: 0; border: 0; background-color: #A3A1A8; font-family: 'Ubuntu', sans-serif;}
+
+/* CABEÇALHO */
+#header{ height: 80px; 
+    background-color: #034C8C; 
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: auto;}
+/* DENTRO DO CABEÇALHO  */
+.dropbtn{background-color: transparent;
+    border: transparent;}
+.menu-1{ width: 80%; 
+    display: flex; 
+    justify-content: space-between; 
+    margin: auto; 
+    padding-top: 25px; }
+.menu-nome{ color: white; 
+    text-decoration: none; 
+    font-size: 20px;
+    margin: auto;}
+.menu-nome:hover{color: white;}
+.menu-item{ color: white; 
+    text-decoration: none; 
+    font-size: 20px;
+    margin: auto;}
+.menu-item:hover{color: white;}
+
+/* SESSÃO EXTRAS */
+.extras{ width: 50vw; 
+    height: 70px; 
+    background-color: #F2B705; 
+    margin: auto;}
+.extra-text{font-family: 'Ubuntu', sans-serif;
+    color:black; 
+    text-align: center; 
+    padding-top: 18px; 
+    font-size: 25px;
+    font-weight: bold;}
+.notinhas{font-family: 'Ubuntu', sans-serif; color: black;}
+.notinhas1{font-family: 'Ubuntu', sans-serif; color: black; font-weight: bold;}
+
+/* RODAPÉ */
+.rodape{ width: 100%; height: 100px; 
+    background-color: #034C8C; 
+    position: relative; 
+    bottom: 0;}
+.escrita-rodape{ color: white;
+        font-size: 17px;
+        text-align: center; padding-top: 32px;}
+/* RESPONSIVIDADE  */
+@media only screen and (max-width: 600px) {.menu-item{ display: none;}}
+@media only screen and (min-width: 601px) {.dropbtn{ display: none;}}
+@media only screen and (min-width: 601px) {.dropdown-ctd{ display: none;}}
+
+/* botão dropdown menu responsivo */
+.dropdown {position: relative;
+    display: inline-block;}
+  
+.dropdown-content {display: none;
+    position: absolute;
+    background-color: #034C8C;
+    min-width: 300px;
+    z-index: 2;}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+  
+.dropdown-content a:hover {background-color: #034C8C}
+  
+.dropdown:hover .dropdown-content {
+    display: block;}
+  
+.dropdown:hover .dropbtn {
+    background-color: none;}
