@@ -17,7 +17,7 @@
     padding-top: 25px; }
 .menu-nome{ color: white; 
     text-decoration: none; 
-    font-size: 20px;
+    font-size: 22px;
     margin: auto;}
 .menu-nome:hover{color: white;}
 .menu-item{ color: white; 
@@ -35,10 +35,12 @@
     color:black; 
     text-align: center; 
     padding-top: 18px; 
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;}
-.notinhas{font-family: 'Ubuntu', sans-serif; color: black;}
-.notinhas1{font-family: 'Ubuntu', sans-serif; color: black; font-weight: bold;}
+
+.notinhas1{font-family: 'Ubuntu', sans-serif; color: black; font-weight: bold; font-size: 25px;}
+.notinhas2{font-family: 'Ubuntu', sans-serif; color: black; font-size: 23px;}
+.notinhas3{font-family: 'Ubuntu', sans-serif; color: black; font-size: 18px;}
 
 /* RODAPÉ */
 .rodape{ width: 100%; height: 100px; 
@@ -46,8 +48,9 @@
     position: relative; 
     bottom: 0;}
 .escrita-rodape{ color: white;
-        font-size: 17px;
+        font-size: 20px;
         text-align: center; padding-top: 32px;}
+
 /* RESPONSIVIDADE  */
 @media only screen and (max-width: 600px) {.menu-item{ display: none;}}
 @media only screen and (min-width: 601px) {.dropbtn{ display: none;}}
@@ -74,3 +77,6 @@
   
 .dropdown:hover .dropbtn {
     background-color: none;}
+
+    /* RESPONSIVIDADE CARD AMARELO */
+@media only screen and (max-width: 360px) {.extras{ height: 110px; width: 80vw;}}

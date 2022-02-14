@@ -16,7 +16,7 @@
     padding-top: 25px; }
 .menu-nome{ color: white; 
     text-decoration: none; 
-    font-size: 20px;
+    font-size: 22px;
     margin: auto;}
 .menu-nome:hover{color: white;}
 .menu-item{ color: white; 
@@ -28,10 +28,15 @@
 /* FORMAÇÃO  */
 .sobre-mim{background-color:#F2B705;}
 .topicos{color: black; 
-    font-size: 40px; 
+    font-size: 38px; 
     font-weight: bold;}
 .text-topico{ color: black; 
-    font-size: 20px;}
+    font-size: 23px;
+    font-weight: 525;}
+.topico1{color: black; 
+        font-size: 25px; 
+        font-weight: bold;}
+
 
 /* RODAPÉ */
 .rodape{ width: 100%; 
@@ -40,7 +45,7 @@
     position: relative; 
     bottom: 0}
 .escrita-rodape{ color: white;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center; padding-top: 32px;}
 
 /* RESPONSIVIDADE  */

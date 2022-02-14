@@ -16,7 +16,7 @@ border: transparent;}
 .menu-1{ width: 80%; display: flex; justify-content: space-between; margin: auto; padding-top: 25px; }
 .menu-nome{ color: white; 
     text-decoration: none; 
-    font-size: 20px;
+    font-size: 22px;
 margin: auto; }
 .menu-nome:hover{color: white;}
 
@@ -65,8 +65,7 @@ text-align: center;
 padding-top: 32px;}
 
 /* RESPONSIVIDADE EXTRAS */
-@media only screen and (max-width: 360px) {.extra-text{ display: none;}}
-@media only screen and (min-width: 361px) {.extra-text2{ display: none;}}
+@media only screen and (max-width: 360px) {.extras{ width: 80vw;}}
 
 /* RESPONSIVIDADE MENU  */
 @media only screen and (max-width: 600px) {.menu-item{ display: none;}}

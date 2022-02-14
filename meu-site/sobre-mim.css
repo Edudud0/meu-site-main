@@ -16,7 +16,7 @@
     padding-top: 25px; }
 .menu-nome{ color: white; 
     text-decoration: none; 
-    font-size: 20px;
+    font-size: 22px;
     margin: auto;}
 .menu-nome:hover{color: white;}
 .menu-item{ color: white; 
@@ -38,7 +38,7 @@
     position: relative; 
     bottom: 0;}
 .escrita-rodape{ color: white;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center; padding-top: 32px;}
 
 /* RESPONSIVIDADE  */
